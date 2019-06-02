@@ -1,6 +1,6 @@
 {
-    "title": "Landing Page",
-    "name": "startbootstrap-landing-page",
+    "title": "Promesometro",
+    "name": "promesometro",
     "version": "5.0.4",
     "scripts": {
         "start": "gulp watch"
@@ -29,11 +29,7 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-free": "5.8.1",
-        "bootstrap": "4.3.1",
-        "jquery": "3.3.1",
-        "simple-line-icons": "^2.4.1",
-        "dropzone": "^5.5.1"
+                
     },
     "devDependencies": {
         "browser-sync": "2.26.3",
