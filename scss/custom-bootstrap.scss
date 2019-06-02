@@ -1,15 +1,13 @@
-@import "_variables";
-// .input-group-text {
-//   background-color: $primary;
-// }
+@import "../vendor/bootstrap/scss/functions"; 
+@import "../vendor/bootstrap/scss/variables";
 
-.btn-primary {
-//   background-color: $primary;
-}
+$theme-colors: (
+  // primary: #76a576,
+  primary: #ff9931,
+  secondary: red
+);
 
-// .text-primary{
-//     color: $primary !important;
-// }
+@import "../vendor/bootstrap/scss/bootstrap.scss";
 
 h5 {
   background: #fff;
@@ -32,4 +30,8 @@ h5 {
 
 .slick-current {
   opacity: 1;
+}
+
+.modal-header {
+  display: block;
 }
